@@ -1,38 +1,35 @@
-# todo-list
+# Список дел (Todo List) на Vue.js 3
 
-This template should help get you started developing with Vue 3 in Vite.
+Это учебный проект, созданный для практики основ Vue.js 3 с использованием Options API.
 
-## Recommended IDE Setup
+## Функционал
+- Добавление новых задач в список.
+- Удаление выполненных задач.
+- Реализовано на Vue.js 3 (Vite).
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Как запустить проект
 
-## Recommended Browser Setup
+1. Убедитесь, что у вас установлен [Node.js](https://nodejs.org/).
+2. Установите зависимости:
+   ```bash
+   npm install
+Запустите сервер разработки:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Bash
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
+Проект будет доступен по ссылке, которая появится в терминале (обычно http://localhost:5173/).
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+---
+
+### 2. Как обновить это на GitHub
+Теперь, когда ты поменял текст в файле, нужно отправить изменения на сайт. Сделай это через тот же терминал в папке `todo-list`:
+
+1.  **Зафиксируй изменения:**
+    `git add README.md`
+2.  **Сделай подпись (коммит):**
+    `git commit -m "обновил описание проекта"`
+3.  **Отправь на GitHub:**
+    `git push`
